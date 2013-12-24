@@ -3,8 +3,8 @@ magic
 
 does things for stuff
 
-breaks stuff:
+to use:
 ```javascript
-var world = {crap: world}
-console.log(world)
+magic.use();
 ```
+will return stuff for things
