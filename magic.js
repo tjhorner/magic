@@ -8,7 +8,7 @@ var magic = {
 			}else{
 				clearTimeout(counter);
 			}
-		});
+		}, 50);
 		return '(sparks and crap)';
 	}
 }
