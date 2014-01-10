@@ -8,7 +8,8 @@ to use:
 <script src="magic.js"></script>
 ```
 ```javascript
-magic.use();
+magic.use(x);
 ```
 will return stuff for things
 
+x = number of magic
