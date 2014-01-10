@@ -1,16 +1,8 @@
-var numSparks;
 var magic = {
 	use: function(sparks){
-		count = 0;
-		numSparks = sparks;
-		var counter = setTimeout(function(){
-			count++;
-			if(count != numSparks){
-				console.log('(sparks and crap)');
-			}else{
-				clearTimeout(counter);
-			}
-		}, 50);
+		for(var i=0; i < sparks; i++){
+			console.log('(sparks and crap)');
+		}
 		return '(sparks and crap)';
 	}
 }
