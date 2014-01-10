@@ -1,8 +1,9 @@
 var magic = {
 	use: function(sparks){
+		var x;
 		for(var i=0; i < sparks; i++){
-			console.log('#' + i + '. (sparks and crap)');
+			x = x + '(sparks and crap)';
 		}
-		return 'there are your goddamn sparks';
+		return x;
 	}
 }
